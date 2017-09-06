@@ -19,6 +19,7 @@ public class Num
         // N U M E R O S
         
         while (pares < 5){
+    
    
         ingresado = leer.nextInt();
     
