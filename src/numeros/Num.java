@@ -8,10 +8,11 @@ import java.util.Scanner;
 import java.util.Random;
 /**
  *
- * @author Alejandra
+ * @author Alejand89ra
  */
 public class Num 
 {
+    public void numero(){
         Scanner leer = new Scanner (System.in);
         int ingresado = 0;
         int pares = 0;
@@ -19,8 +20,6 @@ public class Num
         // N U M E R O S
         
         while (pares < 5){
-    
-   
         ingresado = leer.nextInt();
     
         if(ingresado%2==0)
@@ -34,5 +33,6 @@ public class Num
          }
      
          }
- 
     }
+    }
+ 
